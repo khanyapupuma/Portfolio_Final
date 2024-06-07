@@ -16,6 +16,7 @@ text-decoration: none;
     width: 260px;
     height: 50px;
     justify-content: center;
+    cursor: not-allowed;
 }
 .b1{
     border-radius: 20px;
@@ -29,7 +30,7 @@ text-decoration: none;
     border-radius: 390px;
 }
 .hd{
-    border-radius: 250px;
+    border-radius: 0px;
 }
 .container{
     align-content: center;
@@ -52,10 +53,14 @@ text-decoration: none;
 .test-1 {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
-.test-2 {
+/* .test-2 {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+} */
+.h1{
+    padding-left: 260px;
 }
